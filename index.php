@@ -15,6 +15,7 @@ $error = isset($_GET["error"]) && $_GET["error"] == "1";
 </head>
 <body>
     <h2>Login</h2>
+    <p>Silakan login dahulu untuk mengakses sistem.</p>
     
     <?php if ($error): ?>
         <p style="color: red;">Username atau password salah!</p>
