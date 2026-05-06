@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "web_praktikum";
+$db = "modul6";
 
 $conn = new mysqli($host, $user, $pass, $db);
 
